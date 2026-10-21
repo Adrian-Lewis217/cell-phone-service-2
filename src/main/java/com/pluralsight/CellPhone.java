@@ -6,8 +6,9 @@ public class CellPhone {
     private String carrier;
     private String phoneNum;
     private String owner;
+
     // constructor
-    public CellPhone(){
+    public CellPhone() {
         this.serialNum = 0;
         this.model = "";
         this.carrier = "";
@@ -16,42 +17,47 @@ public class CellPhone {
     }
 
     // Getter and Setter
-    public int getSerialNum(){
+    public int getSerialNum() {
         return serialNum;
     }
 
-    public void setSerialNum(int serialNum){
+    public void setSerialNum(int serialNum) {
         this.serialNum = serialNum;
     }
 
-    public String getModel(){
+    public String getModel() {
         return model;
     }
 
-    public void setModel(String model){
+    public void setModel(String model) {
         this.model = model;
     }
 
-    public String getCarrier(){
+    public String getCarrier() {
         return carrier;
     }
 
-    public void setCarrier(String carrier){
+    public void setCarrier(String carrier) {
         this.carrier = carrier;
     }
 
-    public String getPhoneNum(){
+    public String getPhoneNum() {
         return phoneNum;
     }
 
-    public void setPhoneNum(String phoneNum){
+    public void setPhoneNum(String phoneNum) {
         this.phoneNum = phoneNum;
     }
 
-    public String getOwner(){
+    public String getOwner() {
         return owner;
     }
 
-    public void setOwner(String owner){
+    public void setOwner(String owner) {
         this.owner = owner;
-    }}
+    }
+
+    public void dial(String number) {
+        System.out.println(owner + "'s phone is calling " + number);
+    }
+}

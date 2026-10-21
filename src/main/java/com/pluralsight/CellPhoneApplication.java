@@ -40,4 +40,12 @@ public class CellPhoneApplication {
 
 
     }
+    public static void display(CellPhone cellPhone2){
+        System.out.println("\nCellPhone");
+        System.out.println("Serial Number: " + cellPhone2.getSerialNum());
+        System.out.println("Model: " + cellPhone2.getModel());
+        System.out.println("Carrier: " + cellPhone2.getCarrier());
+        System.out.println("Phone Number: " + cellPhone2.getPhoneNum());
+        System.out.println("Owner: " + cellPhone2.getOwner());
+    }
 }
