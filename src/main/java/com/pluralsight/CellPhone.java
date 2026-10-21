@@ -10,6 +10,7 @@ public class CellPhone {
     private String carrier;
     private String phoneNum;
     private String owner;
+
     // constructor
     public CellPhone(){
         this.serialNum = 0;
