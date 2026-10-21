@@ -17,5 +17,7 @@ public class CellPhoneApplication {
         // Prompt the user to input information
 
         CellPhone cellPhone = new CellPhone();
+
+        CellPhone cellPhone1 = new CellPhone();
     }
 }
