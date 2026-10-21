@@ -4,14 +4,18 @@ import java.util.Scanner;
 
 public class CellPhoneApplication {
     public static void main(String[] args) {
-        // Scanner and Variables
-        Scanner input = new
-        System.out.print("Serial Number: ");
-        System.out.print(": ");
-        System.out.print(": ");
-        System.out.print(": ");
-        System.out.print(": ");
+        // Scanner
+        Scanner input = new Scanner(System.in);
 
-        Cellphone
+        // Variables
+        int serialNum;
+        String model;
+        String carrier;
+        String phoneNum;
+        String owner;
+
+        // Prompt the user to input information
+
+        CellPhone cellPhone = new CellPhone();
     }
 }
