@@ -9,6 +9,7 @@ public class CellPhoneApplication {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Enter the information for CellPhone 1:");
         System.out.print("Enter Serial Number: ");
         int serialNum = input.nextInt();
         cellPhone1.setSerialNum(serialNum);
@@ -30,8 +31,7 @@ public class CellPhoneApplication {
         String owner = input.nextLine();
         cellPhone1.setOwner(owner);
 
-
-
+        System.out.println("Enter the information for CellPhone 2:");
         System.out.print("Enter Serial Number: ");
         int serialNum2 = input.nextInt();
         cellPhone2.setSerialNum(serialNum2);
